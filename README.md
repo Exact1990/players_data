@@ -1,24 +1,7 @@
-# README
+Структура данных (в БД и моделях) отражает ситуацию:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Есть игроки, которые играют за команду, принимая участие в матчах.
+- Есть показатели (достижения) ("Пробежал более 10 км", "Сделал более 70% точных передач" и так далее).
+- Игроки в каждом матче какие-то показатели выполняют, а какие-то нет.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![alt text](https://github.com/exact1990/players_data/blob/main/db/diagram.png?raw=true)
